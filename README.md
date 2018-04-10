@@ -1,2 +1,2 @@
 # game_project
-## biubiubiu
+## This is a game about biubiubiu.
