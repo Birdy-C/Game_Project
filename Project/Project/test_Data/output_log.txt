@@ -1,0 +1,38 @@
+Initialize engine version: 5.6.3p1 (9c92e827232b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P600 (ID=0x1cb2)
+    Vendor:   NVIDIA
+    VRAM:     1976 MB
+    Driver:   22.21.13.8554
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Administrator\Desktop\vstry\game_project\Project\Project\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.598399 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.601100 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 6548.
+Total: 0.848213 ms (FindLiveObjects: 0.268231 ms CreateObjectMapping: 0.044088 ms MarkObjects: 0.518826 ms  DeleteObjects: 0.016497 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2a6c -> priority: 1 
+  Thread -> id: 1ec -> priority: 1 
+  Thread -> id: 2198 -> priority: 1 
+  Thread -> id: 2500 -> priority: 1 
