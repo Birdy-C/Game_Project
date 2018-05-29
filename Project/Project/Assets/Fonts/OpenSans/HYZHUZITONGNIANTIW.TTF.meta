@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 60c4a30bc7061fe4c8f02596ab6cd368
+timeCreated: 1527593295
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HYZhuZiTongNianTiW
+  fontNames:
+  - HYZhuZiTongNianTiW
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -232,8 +232,12 @@
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
+    <Compile Include="Assets\Mouse\ReplaceMouse.cs" />
     <Compile Include="Assets\StartMenu\Script\ClickButton.cs" />
-    <Compile Include="Assets\StartMenu\Script\StartAnim.cs" />
+    <Compile Include="Assets\Tank\Script\FollowCamera.cs" />
+    <Compile Include="Assets\Tank\Script\PlayerMove.cs" />
+    <Compile Include="Assets\Tank\Script\shootablebox.cs" />
+    <Compile Include="Assets\Tank\Script\SlightMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
