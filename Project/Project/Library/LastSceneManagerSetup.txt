@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/NetworkLobbyChallenge.unity
+- path: Assets/_Scenes/_Loading.unity
   isLoaded: 1
   isActive: 1
