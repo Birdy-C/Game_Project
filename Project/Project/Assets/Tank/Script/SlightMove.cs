@@ -8,7 +8,7 @@ public class SlightMove : MonoBehaviour
     public GameObject target;
     public float turnSpeed = 1f;
     private Vector3 camAng;
-    public float xrecord = 0, yrecord = 0;
+    public float xrecord = 0, yrecord = -5;
 
     void Start()
     {

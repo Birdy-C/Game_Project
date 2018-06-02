@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Loading\init.cs" />
      <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
      <Compile Include="Assets\Lobby\Scripts\EventSystemChecker.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
@@ -63,7 +64,19 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
+     <Compile Include="Assets\Mouse\ReplaceMouse.cs" />
+     <Compile Include="Assets\Particle.cs" />
+     <Compile Include="Assets\scripts\Shell\ShellExplosion.cs" />
+     <Compile Include="Assets\scripts\Tank\TankHealth.cs" />
+     <Compile Include="Assets\scripts\Tank\TankMovement.cs" />
+     <Compile Include="Assets\scripts\Tank\TankShooting.cs" />
+     <Compile Include="Assets\scripts\Tank\UIDirectionControl.cs" />
      <Compile Include="Assets\StartMenu\Script\ClickButton.cs" />
+     <Compile Include="Assets\StartMenu\Script\RollOverButton.cs" />
+     <Compile Include="Assets\Tank\Script\FollowCamera.cs" />
+     <Compile Include="Assets\Tank\Script\PlayerMove.cs" />
+     <Compile Include="Assets\Tank\Script\shootablebox.cs" />
+     <Compile Include="Assets\Tank\Script\SlightMove.cs" />
      <None Include="Assets\Lobby\Documentation.txt" />
      <None Include="Assets\Lobby\Instruction.txt" />
      <None Include="Assets\Fonts\OpenSans\License!.txt" />

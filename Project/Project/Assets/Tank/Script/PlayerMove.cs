@@ -12,11 +12,12 @@ public class PlayerMove : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
+
         // 方向键移动事件
         if (Input.GetKey("up") || Input.GetKey("w"))
         {
-            //Debug.Log("I am coming!");
+            Debug.Log("I am coming!");
             //transform.position += (GetComponentInChildren<rayshooter>().gunEnd.position -
             //    GetComponentInChildren<rayshooter>().gunStart.position).normalized * moveSpeed * Time.deltaTime;
             transform.Translate(0, 0, moveSpeed * Time.deltaTime);

@@ -21,6 +21,9 @@ GameObject:
   - component: {fileID: 4342340286830476}
   - component: {fileID: 33977854624797704}
   - component: {fileID: 23786240731630656}
+  - component: {fileID: 54846045253447542}
+  - component: {fileID: 136371119138181412}
+  - component: {fileID: 114919640084499246}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -36,7 +39,7 @@ Transform:
   m_GameObject: {fileID: 1699231798778230}
   m_LocalRotation: {x: -0.00000016172953, y: -0.0061021224, z: 0.00000019370941, w: 0.9999814}
   m_LocalPosition: {x: -0.0027783203, y: 0.5848043, z: 1.42479}
-  m_LocalScale: {x: 3.6876323, y: 3.687632, z: 3.6876318}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54,6 +57,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 41982b5a5167dd54aa23ef9f5da4a5e4, type: 2}
   m_StaticBatchInfo:
@@ -82,3 +86,53 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699231798778230}
   m_Mesh: {fileID: 4300078, guid: ae6e889e1b843ac4fa72719f4ae38505, type: 3}
+--- !u!54 &54846045253447542
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699231798778230}
+  serializedVersion: 2
+  m_Mass: 0.01
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114919640084499246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699231798778230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fc62c2f61844948a83ac6932572823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TankMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_ExplosionParticles: {fileID: 198857226194017078, guid: 3fad00c33edf12f45976b32887f1da0b,
+    type: 2}
+  m_ExplosionAudio: {fileID: 82812882349763262, guid: 3fad00c33edf12f45976b32887f1da0b,
+    type: 2}
+  m_MaxDamage: 100
+  m_ExplosionForce: 1000
+  m_MaxLifeTime: 2
+  m_ExplosionRadius: 5
+--- !u!136 &136371119138181412
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1699231798778230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.035621434
+  m_Height: 0.19192278
+  m_Direction: 2
+  m_Center: {x: 6.692589e-11, y: 0.0016505346, z: 0.08}
