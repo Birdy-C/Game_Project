@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TankHealth : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class TankHealth : MonoBehaviour
 
     private AudioSource m_ExplosionAudio;               // The audio source to play when the tank explodes.
     private ParticleSystem m_ExplosionParticles;        // The particle system the will play when the tank is destroyed.
-    private float m_CurrentHealth;                      // How much health the tank currently has.
+    public float m_CurrentHealth;                      // How much health the tank currently has.
     private bool m_Dead;                                // Has the tank been reduced beyond zero health yet?
 
 
@@ -84,5 +86,19 @@ public class TankHealth : MonoBehaviour
 
         // Turn the tank off.
         gameObject.SetActive(false);
+        //StartCoroutine(LoadScene("_StartMenu"));
+    }
+
+    public bool deadOrNot()
+    {
+        return m_Dead;
+    }
+
+    IEnumerator LoadScene(string sceneName)  
+    {  
+        AsyncOperation op = SceneManager.LoadSceneAsync(sceneName);  
+        yield return new WaitForEndOfFrame();  
+        op.allowSceneActivation = true;  
+  
     }
 }
