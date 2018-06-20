@@ -1,0 +1,11 @@
+WRLD Unity SDK
+提供的室外场景比室内场景好看一点
+https://assetstore.unity.com/packages/tools/modeling/wrld-unity-sdk-86284
+
+World Machine
+设置地形
+
+shader相关
+https://assetstore.unity.com/packages/tools/visual-scripting/shader-forge-14147
+
+https://assetstore.unity.com/packages/3d/vehicles/air/drone-fighter-04-104798
