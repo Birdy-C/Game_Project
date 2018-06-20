@@ -85,8 +85,8 @@ public class TankHealth : MonoBehaviour
         m_ExplosionAudio.Play();
 
         // Turn the tank off.
-        //gameObject.SetActive(false);
-        StartCoroutine(LoadScene("_StartMenu"));
+        gameObject.SetActive(false);
+        //StartCoroutine(LoadScene("_StartMenu"));
     }
 
     public bool deadOrNot()
