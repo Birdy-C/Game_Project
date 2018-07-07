@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/__Scenes/Challenge_Solo.unity
+=======
+- path: Assets/_Scenes/Challenge_Solo.unity
+>>>>>>> 41e7902dfb5897ec7b39399da421abf24840f67b
   isLoaded: 1
   isActive: 1

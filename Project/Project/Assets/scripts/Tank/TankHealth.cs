@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TankHealth : MonoBehaviour
 {
@@ -84,6 +86,20 @@ public class TankHealth : MonoBehaviour
 
         // Turn the tank off.
         gameObject.SetActive(false);
+        //StartCoroutine(LoadScene("_StartMenu"));
+    }
+
+    public bool deadOrNot()
+    {
+        return m_Dead;
+    }
+
+    IEnumerator LoadScene(string sceneName)  
+    {  
+        AsyncOperation op = SceneManager.LoadSceneAsync(sceneName);  
+        yield return new WaitForEndOfFrame();  
+        op.allowSceneActivation = true;  
+  
     }
 
     public bool deadOrNot()
