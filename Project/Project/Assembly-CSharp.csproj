@@ -603,7 +603,6 @@
      <Compile Include="Assets\Scripts\Tank\PickUp.cs" />
      <Compile Include="Assets\Scripts\Tank\TankHealth.cs" />
      <Compile Include="Assets\Scripts\Tank\TankMovement.cs" />
-     <Compile Include="Assets\Scripts\Tank\TankMovement1.cs" />
      <Compile Include="Assets\Scripts\Tank\TankShooting.cs" />
      <Compile Include="Assets\Scripts\Tank\UIDirectionControl.cs" />
      <Compile Include="Assets\Tank\Script\FollowCamera.cs" />
