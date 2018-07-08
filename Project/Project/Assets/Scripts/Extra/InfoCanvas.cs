@@ -10,7 +10,7 @@ public class InfoCanvas : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		for (int i = 0; i < enemyNumber; i++) {
-			GameObject enemyInfo = (GameObject) Instantiate(Resources.Load("enemy"), transform);
+			GameObject enemyInfo = (GameObject) Instantiate(Resources.Load("_Enemy"), transform);
 			enemyInfo.name = "enemy" + i.ToString();
 			enemyInfo.transform.Translate (new Vector3 (0, -30 * i, 0));
 			GameObject teammateInfo = (GameObject) Instantiate(Resources.Load("teammate"), transform);

@@ -102,8 +102,4 @@ public class TankHealth : MonoBehaviour
   
     }
 
-    public bool deadOrNot()
-    {
-        return m_Dead;
-    }
 }
