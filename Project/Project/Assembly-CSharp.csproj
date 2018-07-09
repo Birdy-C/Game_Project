@@ -584,7 +584,7 @@
      <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
      <Compile Include="Assets\Scripts\AI\AITankShooting.cs" />
      <Compile Include="Assets\Scripts\AI\CheeseAvailable.cs" />
-     <Compile Include="Assets\Scripts\AI\CreateNewEnemy1.cs" />
+     <Compile Include="Assets\Scripts\AI\CreateNewEnemy.cs" />
      <Compile Include="Assets\Scripts\AI\EnoughBullet.cs" />
      <Compile Include="Assets\Scripts\AI\HaveBullet.cs" />
      <Compile Include="Assets\Scripts\AI\IsAlive.cs" />
@@ -599,6 +599,7 @@
      <Compile Include="Assets\Scripts\Extra\MoveTo.cs" />
      <Compile Include="Assets\Scripts\Extra\NumofShells.cs" />
      <Compile Include="Assets\Scripts\Extra\Particle.cs" />
+     <Compile Include="Assets\Scripts\Extra\SynHealth.cs" />
      <Compile Include="Assets\Scripts\Shell\ShellExplosion.cs" />
      <Compile Include="Assets\Scripts\Tank\PickUp.cs" />
      <Compile Include="Assets\Scripts\Tank\TankHealth.cs" />
